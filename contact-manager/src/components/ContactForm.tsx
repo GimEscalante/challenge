@@ -100,12 +100,12 @@ export default function ContactForm() {
         <div>
           <label className="block mb-1 font-medium">Phone Number</label>
           <Input
-            {...register("phoneNumber", {
+            {...register("phone", {
               required: "Phone number is required",
             })}
           />
-          {errors.phoneNumber && (
-            <p className="text-red-500 text-sm">{errors.phoneNumber.message}</p>
+          {errors.phone && (
+            <p className="text-red-500 text-sm">{errors.phone.message}</p>
           )}
         </div>
 

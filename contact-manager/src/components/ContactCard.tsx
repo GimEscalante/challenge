@@ -8,7 +8,7 @@ export default function ContactCard({ contact }: { contact: Contact }) {
         {contact.firstName} {contact.lastName}
       </h2>
       <p><strong>Email:</strong> {contact.email}</p>
-      <p><strong>Phone:</strong> {contact.phoneNumber}</p>
+      <p><strong>Phone:</strong> {contact.phone}</p>
       {contact.companyName && <p><strong>Company:</strong> {contact.companyName}</p>}
       {contact.rolePosition && <p><strong>Role:</strong> {contact.rolePosition}</p>}
       {contact.notes && <p><strong>Notes:</strong> {contact.notes}</p>}
